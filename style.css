@@ -1,0 +1,37 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: url('foto.jpeg');
+	color: #fff;
+}
+.wrapper {
+	display: flex;
+}
+
+.wrapper .first-text {
+	font-size: 40px;
+	color: white;
+}
+.wrapper .sec-text {
+	height: 100px;
+	line-height: 90px;
+	overflow: hidden;
+}
+.sec-text li {
+	position: relative;
+	top: 0;
+	font-size: 60px;
+	top: 0;
+	color: aqua;
+	list-style: none;
+	padding: 0 0 10px aqua;
+	animation: slide 12s steps(4)
+infinite, colorful 8s infinite;
+}
